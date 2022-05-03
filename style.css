@@ -1,0 +1,63 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+.body{
+    background-size: cover;
+}
+.navbar{
+    height: 120px;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.logo{
+    width: 200px;
+    height: auto;
+    padding:20 px 100px;
+}
+.navbar ul {
+float:right;
+margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+padding: 6px 13px;
+font-family: sans-serif;
+transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: red;
+    border-radius: 2px;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 1500px;
+   
+}
+.srch{
+    font-family:sans serif;
+    width: 150x;
+    height: 50px;
+    border: 1px;
+    font-size: 16px;
+    padding: 10px;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin-left: 0cm;
+    color: aliceblue;
+    position: relative;
+    font-size: 40px;
+    font-family: sans-serif;
+}
